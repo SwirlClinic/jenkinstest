@@ -1,0 +1,10 @@
+.custom-layout {
+    background: url('../../images/headerbg.jpg') center / cover;
+}
+.custom-layout .mdl-layout__header {
+    background-color: rgba(0,0,0,0.5);
+}
+.custom-layout .mdl-layout__drawer-button {
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+}
