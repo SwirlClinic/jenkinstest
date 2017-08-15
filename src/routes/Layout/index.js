@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 
-const AppHolder = props => ({
+const Layout = props => ({
     render() {
         return(
             <div>
@@ -14,4 +14,4 @@ const AppHolder = props => ({
 });
 
 
-export default AppHolder;
+export default Layout;

@@ -7,6 +7,9 @@ import './style.css';
 
 class Login extends Component {
 
+    login() {
+        alert('hi there!');
+    }
 
     render() {
 
@@ -32,7 +35,7 @@ class Login extends Component {
                     </div>
 
                     <div className="mdl-card__actions">
-                        <button className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                        <button onClick={this.login} className="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent">
                             Login
                         </button>
 

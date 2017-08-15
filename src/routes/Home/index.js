@@ -11,7 +11,7 @@ class Home extends Component {
         return(
 
             <div className="mdl-grid">
-                <div className="post mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+                <div className="post mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col">
                     <div className="mdl-card__title">
                         <h2 className="mdl-card__title-text">Title</h2>
 
@@ -26,8 +26,6 @@ class Home extends Component {
                         pulvinar tempus velit eget bibendum. Integer bibendum, metus eu luctus bibendum, mauris nisl
                         bibendum justo, eget ullamcorper metus urna nec lectus. Quisque iaculis mi ligula, viverra
                         rutrum enim ultricies id.
-
-                        <Circle data={[['test',50], ['boom',100]]} />
                     </div>
                     <div className="mdl-card__menu">
                         <Link className="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" to="/">
@@ -43,7 +41,7 @@ class Home extends Component {
 
                 </div>
 
-                <div className="post mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+                <div className="post mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col ">
                     <div className="mdl-card__title">
                         <h2 className="mdl-card__title-text">Title</h2>
 
