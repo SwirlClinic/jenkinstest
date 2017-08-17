@@ -7,6 +7,14 @@ import './style.css';
 
 class Login extends Component {
 
+    componentDidMount() {
+        
+        //Fix text fields not floating
+        let nodeList = document.querySelectorAll('.mdl-textfield');
+        window.componentHandler.upgradeElements(nodeList);
+
+    }
+
     login() {
         alert('hi there!');
     }
