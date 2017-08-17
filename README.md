@@ -2,10 +2,10 @@
 
 A template created using material-lite-design, react, and react router
 
-#misc
+#usage
 
-This was made using the create-react-app cli.
+First install node modules `npm install`
 
 To start developing `npm start`
 
-To create a build `npm run build`"# react-material-template" 
+To create a build `npm run build`
